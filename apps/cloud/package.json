@@ -1,0 +1,16 @@
+{
+  "name": "@deskcrew/cloud",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot ./src/index.ts",
+    "start": "bun ./src/index.ts",
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@deskcrew/types": "workspace:*",
+    "hono": "^4.12.18"
+  }
+}

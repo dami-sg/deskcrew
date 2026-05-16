@@ -1,0 +1,4 @@
+preload = ["@opentui/solid/preload"]
+
+[serve.static]
+plugins = ["@opentui/solid/bun-plugin"]

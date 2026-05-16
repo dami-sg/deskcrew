@@ -1,0 +1,14 @@
+{
+  "name": "@deskcrew/desktop",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "bun build ./src/index.ts --outdir ./dist --watch",
+    "build": "bun build ./src/index.ts --outdir ./dist",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@deskcrew/agent-core": "workspace:*"
+  }
+}
